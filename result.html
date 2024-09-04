@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <!-- Bootstrap CSS link -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-image: url('https://businessfirstfamily.com/wp-content/uploads/2016/01/employee-retention-programs-1024x683.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            color: white; /* Set default text color to white */
+        }
+
+        /* Styling for the result display */
+        .result-container {
+            padding-top: 100px; /* Adjust as needed */
+        }
+
+        .result-text {
+            color: black; /* Set retention result text color to black */
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5 result-container">
+        <h1 class="text-center mb-4">Prediction Result</h1>
+        <div class="card">
+            <div class="card-body">
+                <p class="lead text-center result-text">{{ retention_result }}</p>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JS scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
